@@ -699,7 +699,7 @@ function Interests() {
                 <h3 className="text-text-primary text-sm font-medium">Fitness &amp; Biking</h3>
               </div>
               <p className="text-text-secondary text-sm font-light">
-                Exercise and cycling to stay sharp
+                Regular gym workouts and cycling
               </p>
             </div>
           </Reveal>
