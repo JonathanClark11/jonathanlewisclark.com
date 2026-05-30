@@ -549,11 +549,11 @@ function Leadership() {
             <div className="mt-6 flex items-center gap-3">
               <div className="w-8 h-px bg-accent-copper shrink-0" />
               <p className="text-text-secondary text-sm font-light">
-                In 2022, I deliberately moved from AWS to Alexa — from B2B to
-                B2C, from infrastructure to product, into AI and science. I
-                found a different operating culture and brought what I knew:
-                within five months, I delivered a 54.5% infrastructure cost
-                reduction.
+                In 2022, I moved from AWS to Alexa — from B2B to B2C, from
+                infrastructure to product, into AI and science. I started with
+                two teams and grew to five through the Alexa+ complete rebuild.
+                Today I&apos;m educating our entire 220-person organization on
+                how to leverage AI agents and new tooling.
               </p>
             </div>
           </div>
