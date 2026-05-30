@@ -251,7 +251,7 @@ const careerData = [
     period: "Apr 2018 – Nov 2018",
     highlights: [
       "Grew initial team from 2 to 8 within 5 months",
-      "Became sole owner of AWS Step Functions",
+      "Led all engineering for AWS Step Functions",
     ],
     elevation: 55,
   },
