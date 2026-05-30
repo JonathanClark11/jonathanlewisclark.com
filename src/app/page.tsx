@@ -378,8 +378,8 @@ const ventures = [
     role: "Co-Founder & CTO",
     period: "2015 – 2017",
     description:
-      "Healthcare marketplace connecting patients to walk-in clinics. Achieved 72% market share across Canada. Raised $1.5M seed round. Built while working full-time at Amazon.",
-    tag: "$1.5M Raised",
+      "Healthcare marketplace connecting patients to walk-in clinics. Achieved 72% market share across Canada. Raised seed funding at a $1.5M valuation. Built while working full-time at Amazon.",
+    tag: "72% Market Share",
     tagColor: "bg-amber-900/40 text-amber-400 border-amber-800/50",
   },
 ];
