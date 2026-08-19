@@ -58,6 +58,7 @@ function Nav() {
     { label: "Skills", href: "#skills" },
     { label: "Leadership", href: "#leadership" },
     { label: "Interests", href: "#interests" },
+    { label: "Writing", href: "/writing" },
     { label: "Contact", href: "#contact" },
   ];
 
@@ -709,6 +710,76 @@ function Interests() {
   );
 }
 
+function Writing() {
+  const featured = {
+    slug: "mac-mini-ai-agent",
+    title: "I Gave My Mac Mini a Personality and It Changed How I Work",
+    date: "August 19, 2026",
+    description:
+      "What it's actually like to run a persistent AI agent at home — the setup, the surprises, and why I think most people are still thinking about AI agents wrong.",
+    tags: ["AI", "OpenClaw", "Mac mini", "Claude"],
+  };
+
+  return (
+    <section id="writing" className="py-24 sm:py-32 px-6">
+      <div className="max-w-5xl mx-auto">
+        <Reveal>
+          <div className="flex items-end justify-between mb-12">
+            <div>
+              <p className="text-accent-copper text-sm tracking-[0.3em] uppercase mb-2 font-light">
+                Writing
+              </p>
+              <h2 className="font-[family-name:var(--font-cormorant)] text-3xl sm:text-4xl font-light text-text-primary">
+                Notes & Articles
+              </h2>
+            </div>
+            <a
+              href="/writing"
+              className="text-text-muted text-sm hover:text-accent-copper transition-colors hidden sm:block"
+            >
+              View all →
+            </a>
+          </div>
+        </Reveal>
+
+        <Reveal delay={1}>
+          <a
+            href={`/writing/${featured.slug}`}
+            className="group block border border-border-subtle rounded-lg p-8 hover:border-border-hover transition-all duration-300 bg-bg-card/40 hover:bg-bg-card/70"
+          >
+            <div className="flex flex-wrap gap-2 mb-4">
+              {featured.tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="text-xs text-accent-copper-dim border border-border-subtle px-2 py-0.5 rounded"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+            <h3 className="font-[family-name:var(--font-cormorant)] text-2xl font-light text-text-primary group-hover:text-accent-copper transition-colors mb-3 leading-snug">
+              {featured.title}
+            </h3>
+            <p className="text-text-secondary text-sm font-light leading-relaxed mb-4">
+              {featured.description}
+            </p>
+            <span className="text-accent-copper text-sm">Read →</span>
+          </a>
+        </Reveal>
+
+        <div className="mt-6 sm:hidden">
+          <a
+            href="/writing"
+            className="text-text-muted text-sm hover:text-accent-copper transition-colors"
+          >
+            View all writing →
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Education() {
   return (
     <section className="py-16 px-6 bg-bg-secondary/50">
@@ -788,6 +859,7 @@ export default function Home() {
       <Skills />
       <Leadership />
       <Interests />
+      <Writing />
       <Education />
       <Footer />
     </main>
