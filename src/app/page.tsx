@@ -169,7 +169,7 @@ function Hero() {
 
         <Reveal delay={2}>
           <p className="text-text-secondary text-lg sm:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed">
-            12+ years at Amazon building and scaling distributed systems,
+            12+ years building and scaling distributed systems,
             high-performing engineering organizations, and consumer AI products.
           </p>
         </Reveal>
