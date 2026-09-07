@@ -142,7 +142,7 @@ function Hero() {
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <Reveal>
-          <div className="flex justify-center mb-8">
+          <div className="flex justify-center mb-8 mt-16">
             <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden ring-2 ring-accent-copper/30">
               <img
                 src="/headshot.png"
