@@ -142,12 +142,24 @@ function Hero() {
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <Reveal>
+          <div className="flex justify-center mb-8">
+            <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden ring-2 ring-accent-copper/30">
+              <img
+                src="/headshot.png"
+                alt="Jonathan Lewis Clark"
+                className="w-full h-full object-cover object-top"
+              />
+            </div>
+          </div>
+        </Reveal>
+
+        <Reveal delay={1}>
           <p className="text-accent-copper text-sm tracking-[0.3em] uppercase mb-6 font-light">
             Senior Engineering Leader
           </p>
         </Reveal>
 
-        <Reveal delay={1}>
+        <Reveal delay={2}>
           <h1 className="font-[family-name:var(--font-cormorant)] text-5xl sm:text-7xl lg:text-8xl font-light text-text-primary mb-8 leading-[0.95] tracking-tight">
             Jonathan
             <br />
