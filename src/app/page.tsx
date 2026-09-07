@@ -197,13 +197,15 @@ function Hero() {
               <span className="hidden sm:inline">Email</span>
             </a>
             <a
-              href="tel:+12066001315"
+              href="https://x.com/JonathanClark91"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group flex items-center gap-2 text-text-secondary hover:text-accent-copper transition-colors text-sm"
             >
-              <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-                <path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.258 5.63 5.906-5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
               </svg>
-              <span className="hidden sm:inline">+1-206-600-1315</span>
+              <span className="hidden sm:inline">@JonathanClark91</span>
             </a>
           </div>
         </Reveal>
@@ -824,10 +826,12 @@ function Footer() {
                 JonathanClark11@gmail.com
               </a>
               <a
-                href="tel:+12066001315"
+                href="https://x.com/JonathanClark91"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block text-text-secondary hover:text-accent-copper transition-colors text-sm"
               >
-                +1-206-600-1315
+                x.com/JonathanClark91
               </a>
               <a
                 href="https://linkedin.com/in/JonathanClark11"
