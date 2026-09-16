@@ -11,6 +11,8 @@ Nobody woke me up to ask a question. Nobody got stuck and gave up. The work just
 
 This is the recap. The good, the genuinely frustrating, and one moment that made me sit up and pay attention.
 
+![BuckyHQ showing three active assignments all in Needs Approval state](/images/sprint-one-hq.png)
+
 ---
 
 ## What shipped
@@ -68,7 +70,7 @@ I don't know if that feeling will hold. But it was a real moment.
 
 **d) HQ gives you the whole picture at a glance.**
 
-I built a dashboard (BuckyHQ) that shows active assignments, sprint backlog, agent scorecards, and audit log. The screenshot I shared at the top of this post is it — three green "Needs Approval" badges, swe-1 through swe-3, PR numbers linked to GitHub.
+I built a dashboard (BuckyHQ) that shows active assignments, sprint backlog, agent scorecards, and audit log. Three green "Needs Approval" badges, swe-1 through swe-3, PR numbers linked to GitHub.
 
 The value isn't in the data, it's in the absence of ambiguity. I can look at that screen for five seconds and know whether anything is stuck, whether any PR is aging, and what each agent is doing. That's what a good sprint board is supposed to feel like.
 
