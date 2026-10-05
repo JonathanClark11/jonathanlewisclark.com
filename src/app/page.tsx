@@ -283,6 +283,18 @@ const careerData = [
     elevation: 40,
   },
   {
+    title: "Co-Founder & Chief Technology Officer",
+    company: "Medimap (Part-time, alongside Amazon)",
+    location: "Vancouver, BC \u00b7 Remote",
+    period: "Apr 2015 \u2013 May 2017",
+    highlights: [
+      "Co-founded Medimap and led technology for a platform to search and view walk-in clinic wait times across Canada",
+      "Reached 72% Canadian market share and raised seed funding at a $1.5M valuation",
+      "Built the company part-time while working full-time at Amazon",
+    ],
+    elevation: 33,
+  },
+  {
     title: "Software Development Engineer",
     company: "Amazon.com",
     location: "Vancouver, BC",
