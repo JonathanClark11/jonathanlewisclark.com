@@ -16,7 +16,7 @@ Senior engineering leader with 12+ years at Amazon and a track record of buildin
 ## Work Experience
 
 ### Senior Manager, Alexa Daily Essentials — Amazon, Seattle, WA
-**April 2022 – Present**
+**April 2022 – October 2, 2026** (last day at Amazon)
 
 Leading a 61-person engineering organization (49 SDEs, 6 SDMs, 1 TPM, 4 interns) across 9 product charters: ADS, AXES, CAM, Calendar, Calendar Stellar, Documents, GenAI, Notes, and Tasks. Org joined at 34 and grew to a peak of 68.
 

@@ -238,13 +238,13 @@ const careerData = [
     title: "Senior Manager, Alexa Daily Essentials",
     company: "Amazon",
     location: "Seattle, WA",
-    period: "Apr 2022 – Present",
+    period: "Apr 2022 – Oct 2026",
     highlights: [
-      "Leading 61-person engineering organization (49 SDEs, 6 SDMs, 1 TPM, 4 interns) across 9 product charters",
+      "Led 61-person engineering organization (49 SDEs, 6 SDMs, 1 TPM, 4 interns) across 9 product charters",
       "Delivered 54.5% infrastructure cost reduction within 5 months",
       "Delivered SVP-level goal for AI-backed intelligent features (Calendar Insights)",
-      "Leading GenAI charter with science team mandate for AI/ML model deployment",
-      "Org growth arc: 34 (join) → 68 (peak) → 61 (current)",
+      "Led GenAI charter with science team mandate for AI/ML model deployment",
+      "Org growth arc: 34 (join) → 68 (peak) → 61 (at departure)",
     ],
     elevation: 100,
   },
@@ -580,7 +580,7 @@ function Leadership() {
                 In 2022, I moved from AWS to Alexa — from B2B to B2C, from
                 infrastructure to product, into AI and science. I started with
                 two teams and grew to six through the Alexa+ complete rebuild.
-                Today I&apos;m educating our entire 220-person organization on
+                Before leaving, I educated our entire 220-person organization on
                 how to leverage AI agents and new tooling.
               </p>
             </div>
