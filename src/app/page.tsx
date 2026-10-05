@@ -382,10 +382,10 @@ const ventures = [
   },
   {
     name: "Gretchen",
-    role: "Founder",
+    role: "Co-Founder",
     period: "2023 – 2024",
     description:
-      "Legal AI assistant product for email. Solo founder, operated in parallel with Amazon role.",
+      "Legal AI assistant product for email. Co-founder, operated in parallel with Amazon role.",
     tag: "Completed",
     tagColor: "bg-bg-tertiary text-text-muted border-border-subtle",
   },

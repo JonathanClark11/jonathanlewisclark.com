@@ -91,11 +91,11 @@ First Amazon stint prior to UBC graduation.
 
 ---
 
-### Founder, Gretchen — Vancouver, BC
+### Co-Founder, Gretchen — Vancouver, BC
 **2023 – 2024**
 
 - Built a legal AI assistant product for email
-- Solo founder; operated in parallel with Amazon role
+- Co-founder; operated in parallel with Amazon role
 
 ---
 
@@ -221,7 +221,7 @@ Active green card process at Amazon. AC21 portability rules apply. Independent i
 | Project | Role | Years | Notes |
 |---|---|---|---|
 | BudgiePlanner.com | Founder & CEO | 2024–present | AI budgeting app, built on Claude/Anthropic |
-| Gretchen | Founder | 2023–2024 | Legal AI assistant for email |
+| Gretchen | Co-Founder | 2023–2024 | Legal AI assistant for email |
 | Medimap Systems Inc. | Co-Founder & CTO | 2015–2017 | 72% CA market share, $1.5M seed |
 
 ---
