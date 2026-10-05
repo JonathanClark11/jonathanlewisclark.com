@@ -57,6 +57,7 @@ function Nav() {
     { label: "Ventures", href: "#ventures" },
     { label: "Skills", href: "#skills" },
     { label: "Leadership", href: "#leadership" },
+    { label: "Patents", href: "#patents" },
     { label: "Interests", href: "#interests" },
     { label: "Writing", href: "/writing" },
     { label: "Contact", href: "#contact" },
@@ -578,6 +579,98 @@ function Leadership() {
   );
 }
 
+type Patent = {
+  number: string;
+  title: string;
+  filed: string;
+  granted: string;
+  assignee: string;
+  // Omitted when no public page exists yet, so the card renders without a link.
+  href?: string;
+};
+
+const patents: Patent[] = [
+  {
+    number: "US 9,904,585 B1",
+    title: "Error handling in executing workflow state machines",
+    filed: "Oct 2015",
+    granted: "Feb 2018",
+    assignee: "Amazon Technologies, Inc.",
+    href: "https://patents.google.com/patent/US9904585B1/en",
+  },
+  {
+    number: "US 9,766,927 B1",
+    title: "Data flow management in processing workflows",
+    filed: "Oct 2015",
+    granted: "Sep 2017",
+    assignee: "Amazon Technologies, Inc.",
+    href: "https://patents.google.com/patent/US9766927B1/en",
+  },
+  {
+    number: "US 12,726,362 B1",
+    title: "Delegated device authentication between trusted devices",
+    filed: "Dec 2024",
+    granted: "Sep 2026",
+    assignee: "Amazon Technologies, Inc.",
+    // TODO: add a link once Google Patents or USPTO has a public page for it (404 on Google as of 2026-10-05).
+  },
+];
+
+function Patents() {
+  return (
+    <section id="patents" className="py-24 sm:py-32 px-6">
+      <div className="max-w-5xl mx-auto">
+        <Reveal>
+          <p className="text-accent-copper text-sm tracking-[0.3em] uppercase mb-3 font-light">
+            Inventions
+          </p>
+          <h2 className="font-[family-name:var(--font-cormorant)] text-4xl sm:text-5xl font-light mb-16 tracking-tight">
+            Patents
+          </h2>
+        </Reveal>
+
+        <div className="grid gap-6 md:grid-cols-2">
+          {patents.map((patent, i) => (
+            <Reveal key={patent.number} delay={Math.min(i + 1, 4) as 1 | 2 | 3 | 4}>
+              {(() => {
+                const body = (
+                  <>
+                    <p className="text-accent-copper text-xs tracking-widest uppercase mb-3">
+                      {patent.number}
+                    </p>
+                    <h3 className="font-[family-name:var(--font-cormorant)] text-2xl sm:text-3xl font-light text-text-primary leading-snug mb-4">
+                      {patent.title}
+                    </h3>
+                    <p className="text-text-secondary text-sm font-light">
+                      Co-inventor &middot; {patent.assignee}
+                    </p>
+                    <p className="text-text-muted text-xs tracking-widest uppercase mt-3">
+                      Filed {patent.filed} &middot; Granted {patent.granted}
+                    </p>
+                  </>
+                );
+                const cls = "block h-full p-8 bg-bg-card/60 border border-border-subtle rounded-lg";
+                return patent.href ? (
+                  <a
+                    href={patent.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`${cls} hover:border-accent-copper/60 transition-colors`}
+                  >
+                    {body}
+                  </a>
+                ) : (
+                  <div className={cls}>{body}</div>
+                );
+              })()}
+            </Reveal>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 const summits = [
   { name: "Mt. Baker", elevation: 10781, ft: "10,781'" },
   { name: "Mt. Temple", elevation: 11627, ft: "11,627'" },
@@ -874,6 +967,7 @@ export default function Home() {
       <Ventures />
       <Skills />
       <Leadership />
+      <Patents />
       <Interests />
       <Writing />
       <Education />
